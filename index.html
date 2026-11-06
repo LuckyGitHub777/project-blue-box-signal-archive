@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A fictional offline-first cosmic signal experience.">
+  <meta name="color-scheme" content="dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; font-src 'none'; form-action 'none'; base-uri 'none'; frame-src 'none'; object-src 'none'">
+  <title>Signal Archive — An Imagined Transmission</title>
+  <link href="./styles.css" rel="stylesheet">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a href="#console" class="skip">Skip to signal console</a>
+  <div class="starfield" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✳</span> SIGNAL<span class="brand-light"> / ARCHIVE</span></a>
+    <nav aria-label="Site navigation"><a href="#mission">The story</a><a href="#console">Explore</a><a href="#log">Field notes</a></nav>
+    <span class="header-mark">FICTIONAL RECORD / 001</span>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="headline">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> FICTIONAL ARCHIVE · AN OFFLINE STORY</p>
+        <h1 id="headline">Somewhere<br>between <em>silence</em><br>and a signal.</h1>
+        <p class="lead">A quiet invitation to explore an imagined archive of distant transmissions. Three messages. One receiver. No answers handed to you.</p>
+        <div class="hero-actions"><a class="primary-action" href="#console">Enter the archive <span aria-hidden="true">↗</span></a><a class="sub-action" href="#mission">Read the story ↓</a></div>
+        <p class="hero-fine">Entirely fictional. No network access, accounts, location or telemetry.</p>
+      </div>
+      <div class="planet-art" aria-hidden="true">
+        <div class="ring ring-wide"></div><div class="ring ring-offset"></div>
+        <div class="planet"><div class="planet-glow"></div><div class="planet-shade"></div></div>
+        <div class="orbit-dot dot-one"></div><div class="orbit-dot dot-two"></div>
+        <span class="planet-meta meta-upper">UNKNOWN ORIGIN</span><span class="planet-meta meta-lower">∿ 00.000 / IMAGINED</span>
+      </div>
+    </section>
+
+    <section class="mission section" id="mission" aria-labelledby="story-heading">
+      <div class="section-intro"><p class="eyebrow">001 / THE STORY</p><h2 id="story-heading">A place for the <em>unanswered.</em></h2></div>
+      <div class="story-grid">
+        <p class="story-lead">In a fictional station at the edge of a fictional map, an abandoned receiver still listens.</p>
+        <div><p>Three patterns remain in its memory: a pulse, an echo, and a horizon. Each offers a fragment of a story. You can study them in any order and decide which ones belong in your collection.</p><p>Nothing here is a recovered transmission, security exploit, scientific detection or historical claim. It is an original interactive fiction experience inspired by the wonder of exploration.</p></div>
+      </div>
+    </section>
+
+    <section class="console-section section" id="console" aria-labelledby="console-heading">
+      <div class="section-intro"><p class="eyebrow">002 / INTERACTIVE RECEIVER</p><h2 id="console-heading">Listen with <em>your eyes.</em></h2><p>Choose a fictional signal. The display changes locally; no radio, device or server is contacted.</p></div>
+      <div class="receiver">
+        <div class="receiver-bar"><span><span class="led" aria-hidden="true"></span> RECEIVER / OFFLINE SIMULATION</span><span>NO LIVE SOURCES</span></div>
+        <div class="receiver-inner">
+          <aside class="signal-selector" aria-label="Select a fictional signal">
+            <p class="panel-heading">ARCHIVED SIGNALS</p>
+            <div class="signal-buttons" role="group" aria-label="Choose a signal">
+              <button type="button" data-signal="pulse" aria-pressed="true"><span class="signal-number">01</span><span>PULSE <small>THE BEGINNING</small></span><span aria-hidden="true">↗</span></button>
+              <button type="button" data-signal="echo" aria-pressed="false"><span class="signal-number">02</span><span>ECHO <small>THE DISTANCE</small></span><span aria-hidden="true">↗</span></button>
+              <button type="button" data-signal="horizon" aria-pressed="false"><span class="signal-number">03</span><span>HORIZON <small>THE POSSIBILITY</small></span><span aria-hidden="true">↗</span></button>
+            </div>
+            <div class="receiver-counter"><span>COLLECTION</span><strong id="collected-count" aria-live="polite">00 / 03</strong></div>
+          </aside>
+          <div class="signal-stage">
+            <div class="stage-top"><span id="signal-coordinate">SIGNAL // 001</span><span class="status">SIMULATED</span></div>
+            <div class="signal-visual" aria-hidden="true"><div class="visual-guides"></div><div class="wave" id="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            <p class="signal-kicker" id="signal-kicker">TRANSMISSION 01 / THE FIRST LIGHT</p>
+            <h3 id="signal-title">A beginning is a form of courage.</h3>
+            <p class="signal-body" id="signal-story">The station catches a slow pulse. Nothing answers it. Still, the pulse continues, and somewhere in that rhythm is the memory of a first step.</p>
+            <div class="stage-actions"><button type="button" id="collect" class="primary-action">Keep this signal <span aria-hidden="true">+</span></button><button type="button" id="clear" class="clear-action">Clear collection</button></div>
+            <p class="status-note" id="status-note" role="status" aria-live="polite">Select a signal to begin.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="field-notes section" id="log" aria-labelledby="notes-heading">
+      <p class="eyebrow">003 / FIELD NOTES</p><h2 id="notes-heading">The wonder is<br><em>in the question.</em></h2>
+      <div class="note-grid"><div><span>01 — FICTION</span><p>Every name, signal and story is imagined. There are no recovered recordings or hidden transmissions.</p></div><div><span>02 — PRIVACY</span><p>Your selection exists in this tab's memory only. Nothing is stored or transmitted.</p></div><div><span>03 — EXPLORATION</span><p>Choose your own order, collect the ones that resonate, and start again whenever you like.</p></div></div>
+    </section>
+  </main>
+  <footer class="footer"><span>SIGNAL / ARCHIVE</span><p>An original, fictional concept. Not a vulnerable VM, a CTF challenge or a historical reconstruction.</p><a href="#top">Return to the beginning ↑</a></footer>
+</body>
+</html>
