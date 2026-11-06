@@ -19,10 +19,4 @@ Selections live only in the current browser tab's memory. There is no account, t
 
 With Node.js 20 or later, run `npm test` to execute the dependency-free tests.
 
-## More to explore
-
-- [The Mysteries of Eleusis](https://luckygithub777.github.io/mysteries-of-eleusis/) — an interactive exploration of myth and interpretation.
-- [Gravitas Check](https://luckygithub777.github.io/gravitas-check/) — an interactive page-clarity and credibility exercise.
-- [Other public projects](https://github.com/LuckyGitHub777?tab=repositories).
-
 **Use and rights:** Source is publicly viewable, but no redistribution or derivative-use license is granted.
