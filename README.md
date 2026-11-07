@@ -6,7 +6,7 @@
 
 ## Enter the archive
 
-1. Select **Code → Download ZIP** on GitHub, extract the folder, and open `index.html` in your browser. The GitHub file preview shows source code, not the interactive page.
+1. [Open the online Signal Archive](https://luckygithub777.github.io/project-blue-box-signal-archive/) and begin with the interactive receiver. No download is needed.
 2. Choose **Pulse**, **Echo**, or **Horizon** to change the receiver's waveform and story.
 3. Choose **Keep this signal** to collect a favorite, or **Remove from collection** to reverse the choice. **Clear collection** starts over.
 
