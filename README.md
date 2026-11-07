@@ -1,6 +1,8 @@
 # Signal Archive — An Imagined Transmission
 
-**A fictional signal receiver you can explore offline.** Three invented transmissions, each with its own story and visual pattern. Nothing here is a live radio signal, scientific detection, historical record, or actual transmission.
+**Explore online:** [Open the public interactive website](https://luckygithub777.github.io/project-blue-box-signal-archive/). The hosted experience is the primary visitor entry point; source files and optional local use remain available here.
+
+**A fictional signal receiver you can explore online.** Three invented transmissions, each with its own story and visual pattern. Nothing here is a live radio signal, scientific detection, historical record, or actual transmission.
 
 ## Enter the archive
 
@@ -15,7 +17,7 @@ Selections live only in the current browser tab's memory. There is no account, t
 - [`index.html`](index.html) — the visual receiver and story.
 - [`styles.css`](styles.css) — layout and responsive presentation.
 - [`app.js`](app.js) — the three fictional signals and local collection behavior.
-- [`tests/studio.test.mjs`](tests/studio.test.mjs) — offline behavior and safety checks.
+- [`tests/studio.test.mjs`](tests/studio.test.mjs) — browser behavior and safety checks.
 
 With Node.js 20 or later, run `npm test` to execute the dependency-free tests.
 
