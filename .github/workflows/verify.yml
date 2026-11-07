@@ -1,4 +1,4 @@
-name: Verify fictional offline studio
+name: Verify Signal Archive public studio
 on:
   push:
     branches: [main]
